@@ -1,0 +1,940 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0px;
+	background-color: #FFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+h1, h2, h3 {
+	margin-bottom: 1.5em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, ul, ol {
+	margin-bottom: 1.5em;
+	line-height: 180%;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+strong {
+	color: #D7D7D7;
+}
+
+img.left {
+	float: left;
+	margin: 5px 25px 0px 0px;
+}
+
+img.right {
+	float: right;
+	margin: 5px 0px 0px 25px;
+}
+
+/* Header */
+
+#header {
+	height: 120px;
+	margin: 0px auto;
+	background-color: #627AAD;
+	z-index: 2;
+	position: relative;
+}
+
+#header h1 {
+	float: left;
+	margin: 0px;
+	padding: 25px 0px 0px 310px;
+	font-size: 40px;
+	font-family: "Times New Roman", Georgia, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+#header h2 {
+	float: left;
+	margin: 0px;
+	padding: 10px 0px 0px 310px;
+	font-size: 17px;
+	font-family: Georgia, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	color: #FFFFFF;
+}
+
+#header a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*Navigation*/
+
+#navi {
+	float: right;
+    margin-right: 317px;
+	margin-top: -86px;
+	position: relative;
+	z-index: 3;
+}
+
+#navi dl {
+	padding_bottom: 10px; 
+	margin: 0px auto; 
+	width: 200px;
+}
+
+#navi dt {
+	padding-right: 10px; 
+	padding-bottom: 10px; 
+	padding-top: 10px;
+	margin: 0px; 
+	color: #627AAD;  
+	padding-left: 10px; 
+	text-align: center;
+	font-family: "Times New Roman", Georgia, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold; 
+	font-size: 28px; 
+	background-color: #FFFFFF;
+
+}
+
+#navi dd {
+    margin: 0px;
+    border-bottom: #FFFFFF 1px solid;
+    padding-bottom: 0px; 
+    padding-top: 0px;
+	padding-right: 0px; 
+	padding-left: 0px; 
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 20px; 
+	font-weight: bold; 
+	color: #FFFFFF; 
+	background-color: #627AAD;  
+}
+
+#gallery a {
+	padding-bottom: 5px; 
+	padding-top: 5px;
+	display: block;  
+	width: 200px; 
+	color: #FFFFFF; 
+	text-decoration: none;
+}
+
+#gallery a:visited {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	display: block;  
+	width: 200px; 
+	color: #FFFFFF; 
+	text-decoration: none;
+}
+
+#gallery a:hover {
+    width: 200px; 
+	background-color: #258; 
+    color: #999;
+}
+
+/*Login*/
+#login {
+	float: right;
+	margin-right: 317px;
+	margin-top: -90px;
+	position: relative;
+	width: 215px;
+	height: 250px;
+	z-index: 3;
+	background-color: #C0D9D9;
+	opacity: 0.9;	
+	border-radius: 7px; 
+}
+
+.loginrow {
+	width: 100%; 
+    display:block;
+    padding-bottom:5px;
+    padding-top:10px;
+    padding-left:22px;
+}
+
+.loginrow .titlefont {
+	font-family: "Times New Roman", Georgia, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.loginrow .contentfont {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.loginrow .logininput {
+	width: 150px;
+	margin: 3px auto;
+	padding: 0px 0px 0px 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.loginrow .button {
+	margin-left: 75px;
+	width: 100px;
+	height: 25px;
+	background-color: #627AAD;
+	font-family: "Times New Roman", Georgia, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-radius: 9px; 
+}
+
+/* Header2 */
+
+#header2 {
+	width: 980px;
+	height: 70px;
+	margin: 0px auto;
+	border-bottom:0;
+	padding: 0px 0px 0px 0px;
+}
+
+/* Menu */
+#menu {
+	margin-top:16px;
+}
+
+#menu ul {
+	list-style:none; 
+	margin:0px; 
+	padding:0px;
+}
+
+#menu a {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Times New Roman", Georgia, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	color:#999; 
+	text-decoration:none;
+}
+	
+	
+.list {
+	width: 980px;
+	height: 70px; 
+	clear:both;
+}	
+
+.list ul li {
+	height: 30px; 
+	line-height: 30px;
+}
+
+.list ul li a {
+	float:left;
+} 
+	
+.tab_item li {
+	height: 25px;
+	float: left; 
+	margin-right: 2px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.four .tab_item ul li a {
+	height: 100%; 
+	background-color: #627AAD; 
+	display:block; 
+}
+
+.four .tab_item ul li a:hover, .four .tab_item ul .hover a {
+	background-color: #C0D9D9;
+}
+
+/* Page */
+
+#page {
+	z-index: 2;
+	width: 980px;
+	margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+	border-bottom:0;
+}
+
+
+/* Content */
+
+#content {
+	float: left;
+	width: 75%;
+	height: 145px;	
+}
+
+.chart {
+	float: left;
+	width: 100%;
+}
+
+.post {
+	margin-top: -60px;
+	position: relative;
+	float: left;
+	width: 80%;
+	height: 100%;
+	background-color: #C0D9D9;
+}
+
+
+.introdyuctionrow {
+	width: 90%; 
+    display:block;
+    padding-top:10px;
+    padding-left:35px;
+}
+
+.introdyuctionrow font {
+    font-size: 16px;
+	font-family: "Times New Roman", Georgia, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+.post .entry {
+	width: 510px;
+	padding: 20px 0px 0px 10px;
+}
+
+.submit {
+	margin-top: -60px;
+	position: relative;
+	float: right;
+	width: 20%;
+	height: 100%;
+}
+
+.submit .button {
+	width: 100%;
+	height: 100%;
+	background-color: #627AAD;
+	font-family: "Times New Roman", Georgia, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-radius: 9px;
+}
+
+/*Search*/
+
+.searchtable {
+	width: 100%;
+	display:block;
+}
+
+.searchrow {
+	width: 100%; 
+    display:block;
+    padding-bottom:5px;
+    padding-top:10px;
+    padding-left:25px;
+}
+
+.searchrow .titlefont {
+    font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+
+
+.searchrow .checkinput {
+	margin: 10px auto;
+	padding: 0px 0px 0px 0px;
+}
+
+.searchrow .yearinput {
+	width: 80px;
+	margin: 7px auto;
+	padding: 0px 0px 0px 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.searchrow .selectinput {
+	width: 120px;
+	margin: 7px auto;
+	padding: 0px 0px 0px 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/*Checkbox*/
+
+.checkcolumn {
+    float: left;
+    width: 17%;
+    display:block;
+}
+
+.checkcolumn label {
+	margin: 10px auto;
+}
+
+.checkcolumn .checkfont {
+    font-size: 15px;
+	color: #000000;
+}
+
+/*Input*/
+
+.inputcolumn {
+    float: left;
+    width: 24%;
+    display:block;
+}
+
+.inputcolumn label {
+	margin: 10px auto;
+}
+
+
+/*Search One*/
+
+.searchonerow {
+	width: 100%; 
+    display:block;
+    padding-bottom:15px;
+    padding-top:15px;
+    padding-left:35px;
+}
+
+.searchonerow .titlefont {
+    font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.searchonerow .cselectinput {
+	width: 150px;
+	height: 25px;
+	font-size: 15px;
+	margin: 7px auto;
+	padding: 0px 0px 0px 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.searchonerow .yselectinput {
+	width: 110px;
+	height: 25px;
+	margin: 7px auto;
+	padding: 0px 0px 0px 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+.inputonecolumn {
+    float: left;
+    width: 23%;
+    display:block;
+}
+
+.inputonecolumn label {
+	margin: 10px auto;
+}
+
+/*Search Two*/
+
+.searchtworow {
+	width: 100%; 
+    display:block;
+    padding-bottom:15px;
+    padding-top:15px;
+    padding-left:35px;
+}
+
+.searchtworow .titlefont {
+    font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.searchtworow .cselectinput {
+	width: 150px;
+	height: 25px;
+	font-size: 15px;
+	margin: 7px auto;
+	padding: 0px 0px 0px 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+.inputtwocolumn {
+    float: left;
+    width: 30%;
+    display:block;
+}
+
+.inputonecolumn label {
+	margin: 10px auto;
+}
+
+
+/*Button*/
+
+.buutoncolumn {
+    float: left;
+    width: 22%;
+    display:block;
+    background-color: #627AAD;
+}
+
+/* Chart */
+
+#chart {
+	margin-top: -50px;
+	position: relative;
+	float: left;
+	width: 74%;
+	border:4px solid #C0D9D9;
+	border-radius: 4px; 
+	frameBorder: 0px;
+	scrolling: no;
+	height:400px;
+}
+
+
+#chart2 {
+	margin-top: -50px;
+	position: relative;
+	float: left;
+	width: 74%; 
+	height:650px;
+	border:4px solid #C0D9D9;
+	border-radius: 4px; 
+	frameBorder: 0px;
+	scrolling: no;
+}
+
+#chart3 {
+	margin-top: 10px;
+	position: relative;
+	float: left;
+	width: 74%; 
+	height:650px;
+	border:4px solid #C0D9D9;
+	border-radius: 4px; 
+	frameBorder: 0px;
+	scrolling: no;
+}
+
+/*Athlete*/
+
+#athlete {
+	margin-top: 10px;
+	position: relative;
+	float: left;
+	width: 74%;
+	border-radius: 4px; 
+	frameBorder: 0px;
+	scrolling: no;
+}
+
+#title {
+	width:70%;
+	height:60px;
+	background-color:#CC99FF;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+
+#info {
+	width:606px;
+	height:450px;
+	margin-top:20px;
+	margin-left:89px;
+	margin-right:89px;
+	padding-top:30px;
+	background-color:#FFFFFF;
+}
+
+#name{
+	width: 60%;
+	height: 60px;
+	postion: relative;
+	margin-top: 20px;
+	margin-left: 150px;
+	background-color:#FFFF99;
+}
+
+#content2{
+	position: relative;
+	z-index: 1;
+	margin-top: 120px;
+	width:100%;
+	height:220px;
+	border:3px solid #C0D9D9;
+	background-color:#FFFFFF;
+}
+
+#titlefont {
+	font-family: "Times New Roman", Georgia, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#titlefont2 {
+	font-family: "Times New Roman", Georgia, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#contentfont {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#left_info{
+	margin-top: -120px;
+	position: relative;
+	z-index: 3;
+	width:180px;
+	height:180px;
+	margin-left:25px;
+	border:3px solid #C0D9D9;
+	float:left;
+	background:#FFFFFF;
+}
+
+#right_info{
+	width:450px;
+	height: 80%;
+	margin-top:20px;
+	margin-left:15px;
+	float:left;
+	background-color:#FFFFFF;
+}
+
+#country{
+	width:450px;
+	height:30px;
+	background-color:#FFFFFF;
+	text-align: left;
+}
+
+#firstlevel{
+	width:450px;
+	height:20px;
+	background-color:#FFFFFF;
+	margin-top:15px;
+}
+
+#secondlevel{
+	width:450px;
+	height:20px;
+	background-color:#FFFFFF;
+	margin-top:15px;
+}
+
+#dob{
+	width:43%;
+	height:80px;
+	float:left;
+	background-color:#FFFFFF;
+	text-align: center;
+}
+
+#age{
+	width:50%;
+	height:80px;
+	float:right;
+	background-color:#FFFFFF;
+	text-align: center;
+}
+
+#gender{
+	width:100px;
+	height:80px;
+	float:left;
+	background-color:#FFFFFF;
+	text-align: center;
+}
+
+#sports{
+	width:180px;
+	height:80px;
+	float:right;
+	background-color:#FFFFFF;
+	text-align: center;
+}
+
+#athletes{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:90%;
+	border-collapse:collapse;
+	margin-top:10px;
+	margin-left:38px;
+}
+
+#athnamefont {
+	text-decoration: none;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+	color: #000000;
+}
+
+#athletes td, #athletes th {
+	font-size:1em;
+	border:2px solid #258;
+	padding:3px 7px 2px 7px;
+	background-color:#FFFFFF;
+}
+
+#athletes th {
+	font-size:1.1em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#627AAD;
+	color:#FFFFFF;
+}
+
+#editbutton {
+	width: 50px;
+	background-color:#C0D9D9;
+	color:#00000;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-radius: 7px;
+}
+
+/* Sidebar */
+
+#sidebar {
+	margin-top: -140px;
+	position: relative;
+	float: right;
+	margin-right: 6px;
+	width: 210px;
+}
+
+#sidebar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#sidebar li {
+
+	padding: 0px 23px 20px 23px;
+}
+
+#sidebar li ul {
+}
+
+#sidebar li li {
+	padding: 8px 0px 5px 15px;
+	font-size: 15px;
+	background: none;
+	border-bottom: 1px solid #627AAD;
+}
+
+#sidebar li a:link { 
+	text-decoration: none;
+	color: blue;
+}
+
+#sidebar li a:active { 
+	text-decoration: blink;
+}
+
+/*Insert*/
+.inserttablerow {
+    margin: 20px auto;
+    padding: 10px auto;
+}
+.inserttablename label {
+    margin: 10px;
+}
+
+.insertrow .inserttablename .titlefont {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.insertrow {
+    position: relative;
+    width: 100%; 
+    display:block;
+    padding-bottom:5px;
+    padding-top:10px;
+    padding-left:25px;
+}
+
+.insertrow .titlefont {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.insertrow .checkinput {
+    margin: 10px auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.insertrow .textinput {
+    width: 100px;
+    margin: 7px auto;
+    padding: 0px 0px 0px 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.insertrow .selectinput {
+    width: 120px;
+    margin: 7px auto;
+    padding: 0px 0px 0px 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/*Checkbox*/
+
+.checkcolumn {
+    position: relative;
+    float: left;
+    width: 17%;
+    display:block;
+}
+
+.checkcolumn label {
+    margin: 10px auto;
+}
+
+.checkcolumn .checkfont {
+    font-size: 15px;
+    color: #000000;
+}
+
+/*Input*/
+
+.inputcolumn {
+    position: relative;
+    float: left;
+    width: 22%;
+    display:block;
+}
+
+.inputcolumn label {
+    margin: 10px auto;
+}
+
+#insertcontent1 {
+    float: left;
+    width: 75%;
+    height: 215px;
+}
+#insertcontent2 {
+    float: left;
+    width: 75%;
+    height: 255px;
+}
+#insertcontent3 {
+    float: left;
+    width: 75%;
+    height: 125px;
+}
+#insertcontent4 {
+    float: left;
+    width: 75%;
+    height: 125px;
+}
+#insertcontent5 {
+    float: left;
+    width: 75%;
+    height: 110px;
+}
+.padblank { 
+    z-index: 10;
+    background-color: #ffffff;
+    height: 20px;
+}
+
+#sidebar li a:hover { 
+	text-decoration: underline;
+	color: #000000;
+}
+
+#sidebar li a:visited { 
+	text-decoration: none;
+	color: #2F4F4F;
+}
+
+#sidebar h2 {
+	margin: 0px;
+	padding: 16px 0px 10px 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #627AAD;
+}
+
+/* Footer */
+
+#footer {
+	float: left;
+	margin-top: 30px;
+	width: 100%;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 5px 20px 20px 0px;
+	text-align: left;
+	font-size: 10px;
+	color: #566D77;
+	border-top: 1px solid #C0D9D9;
+}
+
+#footer a {
+	color: #8097A1;
+}

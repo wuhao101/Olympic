@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DisplayChart</servlet-name>
+    <servlet-class>org.jfree.chart.servlet.DisplayChart</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChartServletOne</servlet-name>
+    <servlet-class>Servlet.ChartServletOne</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChartServletFour</servlet-name>
+    <servlet-class>Servlet.ChartServletFour</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChartServletTwo</servlet-name>
+    <servlet-class>Servlet.ChartServletTwo</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MedalListServlet</servlet-name>
+    <servlet-class>Servlet.MedalListServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertServletThree</servlet-name>
+    <servlet-class>Servlet.InsertServletThree</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertServletFour</servlet-name>
+    <servlet-class>Servlet.InsertServletFour</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertServletFive</servlet-name>
+    <servlet-class>Servlet.InsertServletFive</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertServletOne</servlet-name>
+    <servlet-class>Servlet.InsertServletOne</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertServletTwo</servlet-name>
+    <servlet-class>Servlet.InsertServletTwo</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>InsertServletTwo</servlet-name>
+    <url-pattern>/InsertServletTwo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>InsertServletOne</servlet-name>
+    <url-pattern>/InsertServletOne</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>InsertServletFive</servlet-name>
+    <url-pattern>/InsertServletFive</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>InsertServletFour</servlet-name>
+    <url-pattern>/InsertServletFour</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>InsertServletThree</servlet-name>
+    <url-pattern>/InsertServletThree</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>MedalListServlet</servlet-name>
+    <url-pattern>/MedalListServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>ChartServletTwo</servlet-name>
+    <url-pattern>/ChartServletTwo</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>ChartServletFour</servlet-name>
+    <url-pattern>/ChartServletFour</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>ChartServletOne</servlet-name>
+    <url-pattern>/ChartServletOne</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+     <servlet-name>DisplayChart</servlet-name>
+     <url-pattern>/servlet/DisplayChart</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>SearchMain.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

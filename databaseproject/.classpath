@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="gnujaxp.jar"/>
+	<classpathentry kind="lib" path="iText-2.1.5.jar"/>
+	<classpathentry kind="lib" path="jcommon-1.0.17.jar"/>
+	<classpathentry kind="lib" path="jfreechart-1.0.14.jar"/>
+	<classpathentry kind="lib" path="jfreechart-1.0.14-experimental.jar"/>
+	<classpathentry kind="lib" path="jfreechart-1.0.14-swt.jar"/>
+	<classpathentry kind="lib" path="junit.jar"/>
+	<classpathentry kind="lib" path="mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="servlet.jar"/>
+	<classpathentry kind="lib" path="swtgraphics2d.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
